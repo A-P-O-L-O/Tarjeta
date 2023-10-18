@@ -11,9 +11,9 @@ public class Index {
     public static void main(String[] args) {
         
         
-//                Personalizada creacion = new Personalizada();
-//                creacion.setVisible(true);
-//                creacion.setLocationRelativeTo(null);
+                Personalizada creacion = new Personalizada();
+                creacion.setVisible(true);
+                creacion.setLocationRelativeTo(null);
         //
         ////        NoPersonalizada creacion = new NoPersonalizada();
         ////        creacion.setVisible(true);
@@ -25,7 +25,7 @@ public class Index {
 //
 //        for (Integer numeroTarjeta : numerosDeTarjeta) {
 //            System.out.println(numeroTarjeta);
-//        }
+//        }e
 
 //        List<TarjetaPersonalizada> todasLasTarjetas = tarjetaController.getTodasLasTarjetas();
 //
@@ -33,9 +33,9 @@ public class Index {
 //            System.out.println("Número de tarjeta: " + tarjeta.getNombrePropietario());
 //        }
 //
-Recarga recarga = new Recarga();
-recarga.setVisible(true);
-recarga.setLocationRelativeTo(null);
+//Recarga recarga = new Recarga();
+//recarga.setVisible(true);
+//recarga.setLocationRelativeTo(null);
 
     }
 
