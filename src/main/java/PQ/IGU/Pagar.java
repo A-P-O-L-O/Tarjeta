@@ -26,17 +26,7 @@ public class Pagar extends javax.swing.JFrame {
 
     ControladoraLogica control = new ControladoraLogica();
 
-=======
-/**
- *
- * @author juanl
- */
-public class Pagar extends javax.swing.JFrame {
 
->>>>>>> 01c727f65bc423e333739533e9f2a7f378b9cf97
-    /**
-     * Creates new form Pagar
-     */
     public Pagar() {
         initComponents();
     }
@@ -50,7 +40,6 @@ public class Pagar extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-<<<<<<< HEAD
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -271,7 +260,7 @@ public class Pagar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtDocumentoUno;
-=======
+
     /**
      * @param args the command line arguments
      */
@@ -306,8 +295,4 @@ public class Pagar extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
->>>>>>> 01c727f65bc423e333739533e9f2a7f378b9cf97
-    // End of variables declaration//GEN-END:variables
 }
