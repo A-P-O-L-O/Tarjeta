@@ -141,16 +141,16 @@ public class TarjetaPersonalizadaJpaController implements Serializable {
         }
     }
 
-    public List<Integer> getNumerosTarjetaList() {
-        EntityManager em = getEntityManager();
-        try {
-            Query query = em.createQuery("SELECT t.numeroTarjeta FROM TarjetaPersonalizada t");
-            List<Integer> numerosTarjeta = query.getResultList();
-            return numerosTarjeta;
-        } finally {
-            em.close();
-        }
-    }
+//    public List<Integer> getNumerosTarjetaList() {
+//        EntityManager em = getEntityManager();
+//        try {
+//            Query query = em.createQuery("SELECT t.numeroTarjeta FROM TarjetaPersonalizada t");
+//            List<Integer> numerosTarjeta = query.getResultList();
+//            return numerosTarjeta;
+//        } finally {
+//            em.close();
+//        }
+//    }
     
     public List<TarjetaPersonalizada> getTodasLasTarjetas() {
     EntityManager em = getEntityManager();
