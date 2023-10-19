@@ -4,7 +4,6 @@
  */
 package PQ.IGU;
 
-<<<<<<< HEAD
 import PQ.LOGICA.ControladoraLogica;
 import PQ.LOGICA.TarjetaPersonalizada;
 import PQ.PERSISTENCIA.TarjetaPersonalizadaJpaController;
@@ -116,33 +115,30 @@ public class Pagar extends javax.swing.JFrame {
                 .addContainerGap(176, Short.MAX_VALUE))
         );
 
-=======
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
->>>>>>> 01c727f65bc423e333739533e9f2a7f378b9cf97
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
+
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-=======
             .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 300, Short.MAX_VALUE)
->>>>>>> 01c727f65bc423e333739533e9f2a7f378b9cf97
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-<<<<<<< HEAD
+
     private void txtDocumentoUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDocumentoUnoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtDocumentoUnoActionPerformed
